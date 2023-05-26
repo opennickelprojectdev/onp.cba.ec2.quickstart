@@ -13,10 +13,10 @@ lifecycle:
     commands:
     - bash lifecycle/upgrade.sh
 metadata:
-  organisation-id: onp
+  organisation-id: cba
   pattern-categories:
   - Compute
   pattern-description: Deploy an EC2 instance securely in CBA AWS workspaces
-  pattern-id: onp.cba.ec2.quickstart
-  pattern-name: cba.ec2.quickstart
+  pattern-id: cba.ec2.quickstart
+  pattern-name: EC2 Blueprint - Quickstart
   pattern-version: 1.0.0
