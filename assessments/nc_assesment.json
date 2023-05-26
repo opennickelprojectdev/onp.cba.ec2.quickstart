@@ -1,0 +1,39 @@
+{
+    "Assesments": [
+        {
+            "AssesmentId": "ncr-001",
+            "AssesmentSummary": "All resources should have the data classification specified",
+            "AssesmentDescription": "Each system that either used to store or used to flow through data should have a clear indication of the data classification",
+            "AssesmentStrategy": "Assesment is conducted by assessing the tags in the resource",
+            "AssesmentStatus": "PASSED"
+        },
+        {
+            "AssesmentId": "ncr-002",
+            "AssesmentSummary": "All resources that stores data should be encrpt the data at rest",
+            "AssesmentDescription": "The data storing resources such as file systems and database systems should be encrypted at all times",
+            "AssesmentStrategy": "Implement the controls for individual resource type to assess if the data is encrypted",
+            "AssesmentStatus": "PASSED"
+        },
+        {
+            "AssesmentId": "ncr-003",
+            "AssesmentSummary": "All resources that stores data should be encrpt the data during the transit",
+            "AssesmentDescription": "The data flow paths from the data resources to the applications should be encrypted",
+            "AssesmentStrategy": "Implement the controls for individual resource type to assess if the data is encrypted",
+            "AssesmentStatus": "PASSED"
+        },
+        {
+            "AssesmentId": "ncr-004",
+            "AssesmentSummary": "The encryption keys used for each resource should be unique",
+            "AssesmentDescription": "Each resource should be created with a unique encryption key",
+            "AssesmentStrategy": "Implement the controls for individual resource type to assess if the data is encrypted",
+            "AssesmentStatus": "PASSED"
+        },
+        {
+            "AssesmentId": "ncr-005",
+            "AssesmentSummary": "Each compute resource should have unique roles and associated permission sets",
+            "AssesmentDescription": "The same role should not be used with multiple compute resources",
+            "AssesmentStrategy": "Check if a given role is used in multiple server or non-server resources",
+            "AssesmentStatus": "PASSED"
+        }
+    ]
+}
