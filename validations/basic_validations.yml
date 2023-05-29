@@ -1,4 +1,4 @@
-Mandatory Fields:
+mandatory-fields:
   - organisation-id
   - pattern-id
   - pattern-name
