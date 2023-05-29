@@ -3,4 +3,4 @@ mandatory-fields:
   - pattern-id
   - pattern-name
   - pattern-version
-  - target-environment
+  - target-environments
