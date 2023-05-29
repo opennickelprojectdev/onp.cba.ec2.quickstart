@@ -1,0 +1,6 @@
+Mandatory Fields:
+  - organisation-id
+  - pattern-id
+  - pattern-name
+  - pattern-version
+  - target-environment
