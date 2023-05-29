@@ -9,7 +9,9 @@ metadata:
   CI: CM00014335
   reviewer: Cloud Team
   endorser: Risk Team
-
+  target-envoronments: 
+    - Dev
+    - Test
 
 dependencies: null
 lifecycle:
